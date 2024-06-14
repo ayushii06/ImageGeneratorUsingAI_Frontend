@@ -4,14 +4,14 @@ import Navbar from './components/Navbar/Navbar';
 
 function App() {
   return (
-   <div className="App">
-    <Navbar/>
+   
     <BrowserRouter>
+    <Navbar/>
     <Routes>
       <Route exact path='/' element={<Home></Home>}></Route>
     </Routes>
     </BrowserRouter>
-   </div>
+   
   );
 }
 
